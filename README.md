@@ -10,4 +10,4 @@ Voel je vrij om je functionaliteit toe te voegen.
 
 Let op: Zet de interval niet lager dan 60 seconden om de servers van Gamekings niet te belasten.
 
-<img src="https://i.imgur.com/U6JOU4z.png" width="800">
+<img src="https://i.imgur.com/U6JOU4z.png" width="500">
