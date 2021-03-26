@@ -67,7 +67,8 @@ if __name__ == "__main__":
             message = "Ik laat je automatisch weten wanneer er een nieuwe GK video beschikbaar is..."
             stars = len(message) * "-"
             print(f"{stars}\n{message}")
-            print(f"Ik check elke {interval} seconden. Laat dit scherm open.")
+            print(
+                f"Ik check elke {interval} seconden. Je kan dit scherm minimaliseren.")
             i += 1
         else:
             pass
