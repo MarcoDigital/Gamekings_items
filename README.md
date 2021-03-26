@@ -25,7 +25,11 @@ Je kan de terminal vervolgens minimaliseren en op achtergrond laten draaien.
 Als het programma een nieuwe upload ziet zal zal notify() functie aangesproken worden. Hierbij word de browser automatisch geopend.
 Voel je vrij om je functionaliteit toe te voegen.
 
-Let op: Zet de interval niet lager dan 60 seconden om de servers van Gamekings niet te belasten.
+### Let op
+1. Dit programma geeft geen onbetaald toegang tot GK Premium items. [Support Gamekings!](https://www.gamekings.tv/get-premium/)
+2. Zet de interval niet lager dan 60 seconden om de servers niet te belasten.
+3. Dit programma is niet gemaakt door personeel van Blammo Media/Gamekings.
+
 
 Terminal view:
 
