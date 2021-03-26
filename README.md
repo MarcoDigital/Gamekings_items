@@ -1,7 +1,9 @@
 # Gamekings checker
 
 Dit script checkt met een interval (standaard 60 seconden) of er een nieuwe video op gamekings.tv beschikbaar is. 
-Bij gebruik moet je Python 3.x installeren en gebruiken. Het bestand kan je vanaf Terminal, Powershell of CMD uitvoeren met de volgende commandline:
+Voor gebruik moet je Python 3.x installeren en de module beautifulsoup4 installeren via pip. https://pypi.org/project/beautifulsoup4/
+
+Het bestand kan je vanaf Terminal, Powershell of CMD uitvoeren met de volgende commandline:
 
 python3 gamekings_items.py
 
