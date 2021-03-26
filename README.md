@@ -5,6 +5,8 @@ Bij gebruik moet je Python 3.x installeren en gebruiken. Het bestand kan je vana
 
 python3 gamekings_items.py
 
+Je kan de terminal vervolgens minimaliseren en op achtergrond laten draaien.
+
 Als het programma een nieuwe upload ziet zal zal notify() aangesproken worden. Hierbij word de browser automatisch geopend.
 Voel je vrij om je functionaliteit toe te voegen.
 
