@@ -5,7 +5,7 @@ Bij gebruik moet je Python 3.x installeren en gebruiken. Het bestand kan je vana
 
 python3 gamekings_items.py
 
-Als het programma een nieuwe upload ziet zal zal notify() aangesproken worden. 
+Als het programma een nieuwe upload ziet zal zal notify() aangesproken worden. Hierbij word de browser automatisch geopend.
 Voel je vrij om je functionaliteit toe te voegen.
 
 Let op: Zet de interval niet lager dan 60 seconden om de servers van Gamekings niet te belasten.
