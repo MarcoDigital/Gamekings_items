@@ -1,7 +1,7 @@
 # Gamekings Update Checker v1.0
 
 Dit script checkt met een interval (standaard 60 seconden) of er een nieuwe video op gamekings.tv beschikbaar is. 
-Voor gebruik moet je eerst Python 3.x installeren en de module beautifulsoup4.
+Voor gebruik moet je eerst Python 3.x installeren en de module [beautifulsoup4](https://pypi.org/project/beautifulsoup4/).
 
 Beautifulsoup4 installatie
 ```python
