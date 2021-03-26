@@ -7,3 +7,5 @@ python3 gamekings_items.py
 
 Als het programma een nieuwe upload ziet zal zal notify() aangesproken worden. 
 Voel je vrij om je functionaliteit toe te voegen.
+
+![alt text](https://i.imgur.com/U6JOU4z.png)
