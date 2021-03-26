@@ -12,8 +12,8 @@ i = 1
 
 
 class bcolors:
-    groen = '\u001b[38;5;2m'
-    reset = '\033[0m'
+    groen = "\u001b[38;5;2m"
+    reset = "\033[0m"
 
 
 def gen():
