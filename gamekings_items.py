@@ -11,6 +11,11 @@ listartikels = []
 i = 1
 
 
+class bcolors:
+    groen = '\033[92m'
+    reset = '\033[0m'
+
+
 def gen():
     """Haalt titels en video's op uit de website"""
     req = requests.get(url).text
@@ -53,8 +58,12 @@ def notify():
     """Notificeert de gebruiker"""
     t = time.localtime()
     current_time = time.strftime("%H:%M:%S", t)
-    print(f"\n{current_time}: Er is een nieuwe Gamekings video beschikbaar.")
-    webbrowser.open(url)  # Opent de browser bij nieuwe video
+    print(
+        f"\n{bcolors.groen}{current_time}: Er is een nieuwe Gamekings video beschikbaar. De nieuwe lijst is hierboven.{bcolors.reset}")
+    print(f"{stars}\n{message}")
+    print(
+        f"Ik check elke {interval} seconden. Je kan dit scherm minimaliseren.")
+    webbrowser.open(url)  # Opent de browser bij nieuwe video.
     listtitels.clear()
     listartikels.clear()
 
@@ -64,7 +73,7 @@ if __name__ == "__main__":
         waarde1 = gen()
         if i == 1:
             printer(listtitels, listartikels)
-            message = "Ik laat je automatisch weten wanneer er een nieuwe GK video beschikbaar is..."
+            message = "Ik laat je automatisch weten wanneer er weer een nieuwe GK video beschikbaar is..."
             stars = len(message) * "-"
             print(f"{stars}\n{message}")
             print(
