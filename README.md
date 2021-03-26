@@ -1,4 +1,4 @@
-# Gamekings_items
+# Gamekings checker
 
 Dit script checkt met een interval (standaard 60 seconden) of er een nieuwe video op gamekings.tv beschikbaar is. 
 Bij gebruik moet je Python 3.x installeren en gebruiken. Het bestand kan je vanaf Terminal, Powershell of CMD uitvoeren met de volgende commandline:
