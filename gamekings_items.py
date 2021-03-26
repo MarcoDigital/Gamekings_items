@@ -12,7 +12,7 @@ i = 1
 
 
 class bcolors:
-    groen = '\033[92m'
+    groen = '\u001b[38;5;2m'
     reset = '\033[0m'
 
 
