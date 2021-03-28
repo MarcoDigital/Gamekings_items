@@ -25,6 +25,9 @@ Je kan de terminal vervolgens minimaliseren en op achtergrond laten draaien.
 Als het programma een nieuwe upload ziet zal zal notify() functie aangesproken worden. Hierbij word de browser automatisch geopend.
 Voel je vrij om je functionaliteit toe te voegen.
 
+#### Update 28/3/2021
+Email functionaliteit is toegevoegd onder de 'Email-notify' branche. Hiermee stuurt het programma je een email bij een nieuwe video. Je kan dit bijvoorbeeld 24/7 op een Raspberry Pi draaien. Dit werkt momenteel alleen met Gmail accounts. De gegevens worden **niet opgeslagen**. Gebruik je 2FA op je Gmail? Maak dan een app-specifiek wachtwoord aan voor je account en gebruik dit als wachtwoord. Als je logingegevens verkeerd zijn zal het programma dit laten weten.
+
 ### Let op
 1. Dit programma geeft geen onbetaald toegang tot GK Premium items. [Support Gamekings!](https://www.gamekings.tv/get-premium/)
 2. Zet de interval niet lager dan 60 seconden om de servers niet te belasten.
