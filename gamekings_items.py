@@ -2,13 +2,17 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import webbrowser
-
+from getpass import getpass
+import sendemail
 
 url = "https://www.gamekings.tv"
-interval = 60  # Interval in seconden voor website check
+interval = 10  # Interval in seconden voor website check
 listtitels = []
 listartikels = []
 i = 1
+email = str(input("Wat is je Gmail account? "))
+wachtwoord = str(
+    getpass("Wat is je wachtwoord? (scherm blijft blank bij intypen) "))
 
 
 class bcolors:
@@ -43,7 +47,7 @@ def printer(listtitels, listartikels):
 
 def vergelijker(val1, val2):
     """Vergelijkt de eerste en tweede iteratie van gen()"""
-    if waarde1 == waarde2:
+    if waarde1 != waarde2:
         listtitels.clear()  # Lijsten leegmaken
         listartikels.clear()  # Lijsten leegmaken
     else:
@@ -63,7 +67,12 @@ def notify():
     print(f"{stars}\n{message}")
     print(
         f"Ik check elke {interval} seconden. Je kan dit scherm minimaliseren.")
-    webbrowser.open(url)  # Opent de browser bij nieuwe video.
+    # webbrowser.open(url)  # Opent de browser bij nieuwe video.
+    try:
+        sendemail.emailuser(email, wachtwoord)
+        print(f"Ik heb een email verzonden naar {email}")
+    except:
+        print("Je email of wachtwoord is verkeerd ingesteld. Start het programma opnieuw met correcte gegevens.")
     listtitels.clear()
     listartikels.clear()
 
