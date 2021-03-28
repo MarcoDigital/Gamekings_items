@@ -6,7 +6,7 @@ from getpass import getpass
 import sendemail
 
 url = "https://www.gamekings.tv"
-interval = 10  # Interval in seconden voor website check
+interval = 60  # Interval in seconden voor website check
 listtitels = []
 listartikels = []
 i = 1
@@ -47,7 +47,7 @@ def printer(listtitels, listartikels):
 
 def vergelijker(val1, val2):
     """Vergelijkt de eerste en tweede iteratie van gen()"""
-    if waarde1 != waarde2:
+    if waarde1 == waarde2:
         listtitels.clear()  # Lijsten leegmaken
         listartikels.clear()  # Lijsten leegmaken
     else:
